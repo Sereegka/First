@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    display: block;
+}
+html.hyde-scroll {
+    overflow: hidden;
+}
+body {
+    background-image: url('Beauty.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    max-width: 1280px;
+    height: 854px;
+    margin: 0px;
+}
+.group {
+    width: 420px;
+    text-align: center;
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 41px;
+}
+.container {
+    display: block;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    transition-duration: inherit;
+    font-size: 1rem;
+    line-height: 1.6;
+    width: 420px;
+    height: 278px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+.heading {
+    font-family: "Roboto", "Arial","sans-serif";
+    margin-left: 56px;
+    margin-top: 20px;
+    margin-right: 56px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 6px;
+    word-wrap: break-word;
+    align-self: flex-start;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+.text {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 380px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    word-wrap: break-word;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    line-height: 1.6;
+}
+.icons {
+    white-space: nowrap;
+    height: 21px;
+    min-height: 16px;
+    width: 210px;
+    min-width: 190px;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 105px;
+    display: flex;
+}
+svg {
+    width:21px;
+    height:21px;
+    fill:white;
+    margin-left: 42px;
+}
+.marg-left {
+    margin-left: 0px;
+}
