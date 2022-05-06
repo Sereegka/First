@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+}
+
+svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Open Sans", "sans-serif";
+}
+
+body {
+    background-image: url("images/main-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.content {
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 4.5vh;
+}
+
+.socials > a {
+    width: 21px;
+    height: 21px;
+    margin: 0 15px;
+}
+
+.socials svg {
+    fill: white;
+}
